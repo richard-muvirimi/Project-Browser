@@ -2,7 +2,8 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Projects extends CI_Controller {
+class Projects extends CI_Controller
+{
 
     /**
      * Index Page for this controller.
@@ -20,14 +21,16 @@ class Projects extends CI_Controller {
      *
      * @see https://codeigniter.com/user_guide/general/urls.html
      */
-    public function index() {
+    public function index()
+    {
         $data = array();
-        $data['table'] = $this->_prepareData();
+        $data['table'] = $this->prepareData();
 
         $this->load->view('projects', $data);
     }
 
-    public function __construct() {
+    public function __construct()
+    {
         parent::__construct();
 
         // load Models
@@ -41,7 +44,8 @@ class Projects extends CI_Controller {
         $this->load->library('table');
     }
 
-    function _prepareData() {
+    public function prepareData()
+    {
         /**
          *
          * @var Projects_Model $projects
@@ -51,12 +55,12 @@ class Projects extends CI_Controller {
         $this->table->set_heading('#', 'Project', 'Title', 'Render Time');
 
         $dirs = $projects->getDirs();
-        
+
         //sort directories
-        sort($dirs);
+        sort($dirs, SORT_STRING | SORT_FLAG_CASE);
 
         $count = count($dirs);
-        for ($i = 0; $i < $count; $i ++) {
+        for ($i = 0; $i < $count; $i++) {
 
             $numberCell = array('data' => $i + 1, 'class' => 'number');
             $projectCell = array('data' => $projects->getAnchor($dirs[$i]), 'class' => 'project');
