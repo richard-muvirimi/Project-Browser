@@ -1,29 +1,16 @@
-*******************
-Project Lister
-*******************
+# Project Browser
 
-Project Lister is an application that lists all projects in a directory based on codeignitor php.
+Project Browser is an application that lists all projects in a directory based on php framework (Codeignitor 4).
 
-![Screenshot1](Screenshot1.png)
+![Screenshot](Screenshot.png)
 
-*******************
-Features
-*******************
+## Features
 
-1. Shows title of page as well as time to load page
-2. Still adding
+1. Shows title of page
+2. Description of page
+3. Time to load (Tested through backend request)
 
-*******************
-Future
-*******************
+## Installation
 
-1. Pagination as the lists grow long
-2. page screen shot
-
-*******************
-Installation
-*******************
-
-1. Copy all files into "../projects/_projects/" folder
-2. You then add your projects into "../projects/" folder
-
+1. Copy all files inside a directory with name `.projects` where your projects are located (`.projects` should be in same directory with your projects).
+2. Open your web browser and goto url `url_to_projects_directory/.project/install` and this will create an `.htaccess` file to redirect traffic to the parent directory to this application

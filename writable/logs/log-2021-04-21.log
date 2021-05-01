@@ -1,0 +1,115 @@
+CRITICAL - 2021-04-21 15:26:25 --> Undefined array key 1
+#0 /srv/http/projects/app/Views/projects.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/projects/system/View/View.php(220): include('...')
+#2 /srv/http/projects/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /srv/http/projects/system/Common.php(1217): CodeIgniter\View\View->render()
+#4 /srv/http/projects/app/Controllers/Home.php(33): view()
+#5 /srv/http/projects/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /srv/http/projects/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /srv/http/projects/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /srv/http/projects/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-21 15:29:28 --> Undefined array key 2
+#0 /srv/http/projects/app/Views/projects.php(69): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/projects/system/View/View.php(220): include('...')
+#2 /srv/http/projects/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /srv/http/projects/system/Common.php(1217): CodeIgniter\View\View->render()
+#4 /srv/http/projects/app/Controllers/Home.php(33): view()
+#5 /srv/http/projects/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /srv/http/projects/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /srv/http/projects/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /srv/http/projects/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-21 15:40:42 --> Undefined array key 6
+#0 /srv/http/projects/app/Views/projects.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/projects/system/View/View.php(220): include('...')
+#2 /srv/http/projects/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /srv/http/projects/system/Common.php(1217): CodeIgniter\View\View->render()
+#4 /srv/http/projects/app/Controllers/Home.php(33): view()
+#5 /srv/http/projects/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /srv/http/projects/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /srv/http/projects/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /srv/http/projects/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-21 15:41:01 --> Undefined array key 6
+#0 /srv/http/projects/app/Views/projects.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/projects/system/View/View.php(220): include('...')
+#2 /srv/http/projects/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /srv/http/projects/system/Common.php(1217): CodeIgniter\View\View->render()
+#4 /srv/http/projects/app/Controllers/Home.php(33): view()
+#5 /srv/http/projects/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /srv/http/projects/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /srv/http/projects/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /srv/http/projects/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-21 15:41:25 --> Undefined array key 6
+#0 /srv/http/projects/app/Views/projects.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/projects/system/View/View.php(220): include('...')
+#2 /srv/http/projects/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /srv/http/projects/system/Common.php(1217): CodeIgniter\View\View->render()
+#4 /srv/http/projects/app/Controllers/Home.php(33): view()
+#5 /srv/http/projects/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /srv/http/projects/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /srv/http/projects/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /srv/http/projects/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-21 15:42:34 --> Undefined array key 6
+#0 /srv/http/projects/app/Views/projects.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/projects/system/View/View.php(220): include('...')
+#2 /srv/http/projects/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /srv/http/projects/system/Common.php(1217): CodeIgniter\View\View->render()
+#4 /srv/http/projects/app/Controllers/Home.php(33): view()
+#5 /srv/http/projects/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /srv/http/projects/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /srv/http/projects/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /srv/http/projects/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-21 16:06:23 --> Undefined variable $i
+#0 /srv/http/projects/app/Views/projects.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/projects/system/View/View.php(220): include('...')
+#2 /srv/http/projects/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /srv/http/projects/system/Common.php(1217): CodeIgniter\View\View->render()
+#4 /srv/http/projects/app/Controllers/Home.php(33): view()
+#5 /srv/http/projects/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /srv/http/projects/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /srv/http/projects/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /srv/http/projects/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-21 16:06:31 --> Illegal offset type
+#0 /srv/http/projects/system/View/View.php(220): include()
+#1 /srv/http/projects/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /srv/http/projects/system/Common.php(1217): CodeIgniter\View\View->render()
+#3 /srv/http/projects/app/Controllers/Home.php(33): view()
+#4 /srv/http/projects/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#5 /srv/http/projects/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#6 /srv/http/projects/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /srv/http/projects/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-21 16:06:33 --> Illegal offset type
+#0 /srv/http/projects/system/View/View.php(220): include()
+#1 /srv/http/projects/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /srv/http/projects/system/Common.php(1217): CodeIgniter\View\View->render()
+#3 /srv/http/projects/app/Controllers/Home.php(33): view()
+#4 /srv/http/projects/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#5 /srv/http/projects/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#6 /srv/http/projects/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /srv/http/projects/index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-21 16:07:58 --> Array to string conversion
+#0 /srv/http/projects/app/Views/projects.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/projects/system/View/View.php(220): include('...')
+#2 /srv/http/projects/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /srv/http/projects/system/Common.php(1217): CodeIgniter\View\View->render()
+#4 /srv/http/projects/app/Controllers/Home.php(33): view()
+#5 /srv/http/projects/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /srv/http/projects/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /srv/http/projects/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /srv/http/projects/index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-21 16:47:13 --> Undefined array key 5
+#0 /srv/http/projects/app/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/projects/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#2 /srv/http/projects/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /srv/http/projects/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /srv/http/projects/index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}

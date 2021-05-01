@@ -1,0 +1,23 @@
+.project-item:not(:hover) .project-description {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* number of lines to show */
+	-webkit-box-orient: vertical;
+}
+
+.project-container a:link {
+	text-decoration: none;
+}
+
+.project-container a:visited {
+	text-decoration: none;
+}
+
+.project-container a:hover {
+	text-decoration: none;
+}
+
+.project-container a:active {
+	text-decoration: none;
+}

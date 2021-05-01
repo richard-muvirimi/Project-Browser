@@ -1,0 +1,16 @@
+CRITICAL - 2021-04-25 03:27:43 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /mnt/c/Projects/http/projects/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 /mnt/c/Projects/http/projects/index.php(34): require('/mnt/c/Projects...')
+#2 {main}
+CRITICAL - 2021-04-25 03:27:43 --> Uncaught ErrorException: chmod(): Operation not permitted in /mnt/c/Projects/http/projects/system/Log/Handlers/FileHandler.php:131
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /mnt/c/Projects/http/projects/system/Log/Handlers/FileHandler.php(131): chmod()
+#2 /mnt/c/Projects/http/projects/system/Log/Logger.php(353): CodeIgniter\Log\Handlers\FileHandler->handle()
+#3 /mnt/c/Projects/http/projects/system/Common.php(829): CodeIgniter\Log\Logger->log()
+#4 /mnt/c/Projects/http/projects/system/Debug/Exceptions.php(129): log_message()
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
