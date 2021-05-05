@@ -53,7 +53,7 @@ class Home extends BaseController
 				"sreenshot" => $this->__getScreenShot($dom),
 				"icon" => $this->__getIcon($dom),
 				"time" => timer()->getElapsedTime('load_site'),
-				"url" => root_url($this->__escapeUrl($slug))
+				"url" => $this->__getUrl($dom) ?: root_url($this->__escapeUrl($slug))
 			));
 		} catch (\Exception $e) {
 			//return $this->response->setJSON(array("exception" => $e->getMessage()));
@@ -63,7 +63,7 @@ class Home extends BaseController
 				"sreenshot" => "",
 				"icon" => "",
 				"time" => timer()->getElapsedTime('load_site'),
-				"url" => root_url($this->__escapeUrl($slug))
+				"url" => $this->__getUrl($dom) ?: root_url($this->__escapeUrl($slug))
 			));
 		}
 	}
@@ -130,6 +130,16 @@ class Home extends BaseController
 
 		$possible = array(
 			array("meta[property='og:image']", "content"),
+		);
+
+		return  $this->__getField($dom, $possible);
+	}
+
+	private function __getUrl($dom)
+	{
+
+		$possible = array(
+			array("meta[property='og:url']", "content"),
 		);
 
 		return  $this->__getField($dom, $possible);
