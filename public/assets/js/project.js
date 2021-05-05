@@ -16,6 +16,8 @@ $(document).ready(function () {
 				element.find(".project-description").html(data.description);
 				element.find(".project-time span").html(data.time);
 
+				element.find("> a").attr("href", data.url);
+
 				if (data.sreenshot.length != 0) {
 					element.find(".project-screenshot").attr("src", data.sreenshot);
 				}
