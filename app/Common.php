@@ -16,7 +16,7 @@
 
 function assets_url($path = "")
 {
-    return base_url("public/assets" . DIRECTORY_SEPARATOR . $path);
+    return base_url() . "/public/assets/" . $path;
 }
 
 function basedir()
